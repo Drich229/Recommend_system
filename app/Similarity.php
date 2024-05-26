@@ -46,19 +46,4 @@ class Similarity
 
         return count($intersection) / count($union);
     }
-
-    public static function minMaxNorm(array $values, $min = null, $max = null): array
-    {
-        $norm = [];
-        $min  = $min ?? min($values);
-        $max  = $max ?? max($values);
-
-        foreach ($values as $value) {
-            $numerator   = $value - $min;
-            $denominator = $max - $min;
-            $minMaxNorm  = $numerator / $denominator;
-            $norm[]      = $minMaxNorm;
-        }
-        return $norm;
-    }
 }

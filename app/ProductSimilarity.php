@@ -62,7 +62,12 @@ class ProductSimilarity
         }
         arsort($similarities);
 
+        $counter = 0;
         foreach ($similarities as $productIdKey => $similarity) {
+
+            if ($counter >= 3) {
+                break;
+            }
             $id       = intval(str_replace('product_id_', '', $productIdKey));
             $products = array_filter($this->products, function ($product) use ($id) { return $product->id === $id; });
             if (! count($products)) {
@@ -71,6 +76,8 @@ class ProductSimilarity
             $product = $products[array_keys($products)[0]];
             $product->similarity = $similarity;
             $sortedProducts[] = $product;
+
+            $counter++;
         }
         return $sortedProducts;
     }
@@ -82,10 +89,6 @@ class ProductSimilarity
 
         return array_sum([
             (Similarity::hamming($productAFeatures, $productBFeatures) * $this->featureWeight),
-            (Similarity::euclidean(
-                Similarity::minMaxNorm([$productA->price], 0, $this->priceHighRange),
-                Similarity::minMaxNorm([$productB->price], 0, $this->priceHighRange)
-            ) * $this->priceWeight),
             (Similarity::jaccard($productA->categories, $productB->categories) * $this->categoryWeight)
         ]) / ($this->featureWeight + $this->priceWeight + $this->categoryWeight);
     }
