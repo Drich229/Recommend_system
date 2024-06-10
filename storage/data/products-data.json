@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "JACK & JONES T-Shirt T-Shirt Uni",
-    "price": "11,99",
+    "price": 11.99,
+    "stock" : 10,
     "description" : "Ce produit est fabriqué en coton biologique. 100 % coton biologique, cultivé sans produits chimiques nocifs. La culture du coton biologique préserve les ressources naturelles et protège la biodiversité",
     "image": "images/jack_and_jone.jpg",
     "categories": "all",
@@ -25,7 +26,8 @@
   {
     "id": 2,
     "name": "style3 Da Vinci Rock T-Shirt Homme Musique Festival Rock Tape",
-    "price": "13",
+    "price": 13,
+    "stock" : 10,
     "description" : "T-shirt jersey tendance imprimé avec motifs originaux et au visuel Vintage à la mode. Un basique parfait en pur coton à porter seul ou superposé à d'autres vêtements. Coupe régulière; avec encolure ronde et détails raffinés comme, par exemple, serre-nuque renforcé. Le tissu composant nos t-shirts ainsi que les encres textiles utilisées au cours du processus de fabrication sont certifiés « Öko-Tex 100» et sont, par conséquent exempts de substances nocives.",
     "image": "images/style3.jpg",
     "categories": "all",
@@ -47,7 +49,8 @@
     {
       "id": 3,
       "name": "Biker T-Shirt Homme Bobber XS 650 Motard",
-      "price": "16",
+      "price": 16,
+      "stock" : 10,
       "description" : "T-shirt homme original. Le tissu est lourd et adhérent (185g/m2). Le double col rond est légèrement côtelé.  En ce qui concerne le matériau, il s'agit de 85% coton, 15% vicose. Le t-shirt est neuf, avec son étiquette.",
       "image": "images/bicker.jpg",
       "categories": "all",
@@ -69,7 +72,8 @@
     {
       "id": 4,
       "name": "JACK & JONES Chemise habillée Chemise habillée",
-      "price": "25",
+      "price": 25,
+      "stock" : 10,
       "description" : "Lot de 2 chemises à manches longues. Matière particulièrement résistante. En coton agréable. Coupe : la coupe confort correspond à la coupe droite. Avec col de chemise",
       "image": "images/jack_jone_chemise.jpg",
       "categories": "men",
@@ -92,7 +96,8 @@
     {
       "id": 5,
       "name": "Brandit Checkshirt Halfsleeve Chemise Homme",
-      "price": "36",
+      "price": 36,
+      "stock" : 10,
       "description" : "T-shirt masculin à manches courtes - Agréable à porter - Matériau en coton doux pour la peau - 2 poches poitrine avec fermeture à boutons - Boutonnière - Coupe droite - Look bûcheron",
       "image": "images/brandit.jpg",
       "categories": "men",
@@ -114,7 +119,8 @@
     {
       "id": 6,
       "name": "Brandit Vintage Chemise à Manches Longues",
-      "price": "34",
+      "price": 34,
+      "stock" : 10,
       "description": "Découvrez le t-shirt vintage tendance de Brandit, qui avec son design décontracté et ses détails particuliers est un must absolu pour votre garde-robe. Avec les deux poches plaquées sur la poitrine et les épaulettes, ce t-shirt apporte une touche de charme rétro. La finition délavée vintage donne au t-shirt un look authentique et usé, tandis que les bords bruts ajoutent une touche cool aux extrémités.",
       "image": "images/brandit_vintage.jpg",
       "categories": "men",
@@ -136,7 +142,8 @@
     {
       "id": 7,
       "name": "Morgan T-shirt manches longues avec dentelle",
-      "price": "23",
+      "price": 23,
+      "stock" : 10,
       "description" : "T-shirt en fine maille stretch unie Coupe ajustée Col en V Manches longues Empiècement dentelle à motif floral aux poignets et à l'encolure Le mannequin mesure 1,75 m et porte une taille S",
       "image": "images/morgan_tshirt_m_longue.jpg",
       "categories": "women",
@@ -158,7 +165,8 @@
     {
       "id": 8,
       "name": "Morgan T-shirt col V à dos boutonné en dentelle",
-      "price": "18",
+      "price": 18,
+      "stock" : 10,
       "description" : "T-shirt en tissu stretch uni/r/nCoupe droite fluide/r/nManches courtes/r/nCol V/r/nBords des manches et du col en dentelle festonnée à finitions frangées/r/nEmpiècement en V boutonné au dos, en dentelle/r/n/r/nLe mannequin mesure 1m75 et porte une taille",
       "image": "images/morgan_tshirt_bouton.jpg",
       "categories": "women",
@@ -180,7 +188,8 @@
     {
       "id": 9,
       "name": "Tuopuda Chemisier Femme Chic Élégant Blouses UPF 50",
-      "price": "30",
+      "price": 30,
+      "stock" : 10,
       "description": "Chemisier Femme UPF 50+ : 88 % de polyester et 12 % de spandex. Cette chemise femme avec protection UV UPF 50+ est dotée de trous d'aération pour une respirabilité et un confort optimaux, et vous permet de rester au frais et au sec lors de vos safaris ou au quotidien",
       "image": "images/tuopuda_chemisier.jpg",
       "categories": "women",
@@ -202,7 +211,8 @@
     {
       "id": 10,
       "name": "Amazon Essentials Chemise en Popeline à Manches 3/4 Coupe Classique Femme",
-      "price": "23",
+      "price": 23,
+      "stock" : 10,
       "image": "images/amazon_essentials.jpg",
       "categories": "women",
       "features": {
